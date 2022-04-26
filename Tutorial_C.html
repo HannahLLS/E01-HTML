@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8"> 
+    <title> Tutrial_C </title>
+</head>
+<body>
+    
+    <h1> Tutorial para os calouros</h1>
+    <h2>
+        <p>Estruturas de repetições e Loops </p>
+    </h2>
+
+        <h3> Estrutura If</h3>
+        <ul>
+            <li>
+                If é uma estrutura de definição que tem o objetivo de testar <b> se a condição passado é verdadeira</b>,
+                caso seja ele entra dentro do bloco de IF,<br> e dentro do bloco de IF caso não seja ele entra dentro do bloco de ELSE 
+                onde a decisão é satisfatória. 
+            </li>
+            <li>
+                Exemplo : <br> #include <br>
+                #include
+                <br>
+                float main() <br>
+                {
+                 int n1, n2, media=0; <br>
+                
+                 printf("Digite a Nota 1: ");<br>
+                 scanf("%d", &n1);<br>
+                
+                 printf("Digite a Nota 2: ");<br>
+                 scanf("%d", &n2);<br>
+                
+                 media = (n1 + n2)/2;<br>
+                
+                 if (media >= 6) <br>
+                 {
+                     printf("Aluno Aprovado"); <br>
+                 }
+                 else <br>
+                 {
+                     printf("Aluno Reprovado"); <br>
+                 } <br>
+                
+                getch();<br>
+            </li>
+        </ul>
+
+        <h3> Estrutura Switch </h3>
+            <ul>
+                <li>
+                   Switch é uma <b>declaração de múltipla escolha </b>, diferente do if que caso tenha uma lista de escolha a ser montada não fica elegante e dependendo a extensão do programa fica difícil a manutenção.
+                </li>
+                <li>
+                    Exemplo: <br>  
+                    switch (variável) { <br>
+
+                        casa Valor1: <br>
+                         Lista de instruções; <br>
+                        
+                          break;<br>
+                        
+                        casa Valor2 : <br>
+                         Lista de instruções; <br>
+                        
+                          break;</bold> <br>
+                        
+                        casa Valores... : <br>
+                         Lista de instruções; <br>
+                        
+                          Break; <br>
+                        
+                        default: <br>
+                        
+                         Lista de instruções; <br>
+                        
+                        }
+                </li>
+            </ul>
+        
+        <h3> Estrutura While</h3> 
+            <ul>
+                <li>
+                    Executa a repetição de um bloco de instruções enquanto uma condição é verdadeira.
+                    A estrutura Enquanto … Faça equivale a estrutura while em linguagem C. 
+                    Para que seja possível fazer o teste, a variável de controle deve ter sido inicializada previamente.
+                    Observe que o teste da condição ocorre no início do laço.
+                   <b> Enquanto a condição permanecer verdadeira, são executadas as instruções.</b>
+                    Quando a condição se tornar falsa, o processamento será desviado para fora do laço.
+                </li>
+                <li>
+                    Exemplo: <br>
+                    #include <stdio.h> <br>
+                        int main(void) <br>
+                        {
+                          int contador = 1; //declarando e inicializando a variável de controle <br>
+                          
+                          while (contador <= 10) // Testando a condição <br>
+                          {
+                            printf("%d ", contador); //Executando um comando dentro do laço <br>
+                            
+                            contador++; //atualizando a variável de controle 
+                          }  <br>
+                          
+                          return 0; <br>
+                        }
+                </li>
+
+            </ul>
+
+
+        <h3> Loop For </h3>
+            <ul> 
+                <li>
+                    Para implemnetar o for basta especificar o nome da variável que serve de contador <b>(e, eventualmente, o seu valor inicial, a condição sobre a variável para a qual o loop para 
+                    (basicamente uma condição que testa se o valor do contador excede um limite)</b> e, 
+                    finalmente, uma instrução que incrementa (ou decrementa) o contador.
+                </li>
+                <li>
+                    Exemplo: <br>
+                    for (i=1; i<6; i++) {  <br>
+                        printf("%d", i); 
+                       } <br>
+                       }
+                </li>
+            </ul>
+          
+
+</body>
+</html>
